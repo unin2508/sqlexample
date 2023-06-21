@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/getallsv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DANH SACH TAT CA SINH VIEN">
+        </Button>
+        <Button
+            android:id="@+id/addsv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THEM SINH VIEN">
+        </Button>
+        <Button
+            android:id="@+id/danhsachlophoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DANH SACH LOP HOC">
+
+        </Button>
+        <Button
+            android:id="@+id/addlophoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Them lop hoc">
+
+        </Button>
+        <Button
+            android:id="@+id/dangkylophoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="them sinh vien vao lop hoc">
+
+        </Button>
+        <Button
+            android:id="@+id/thongke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinh vien ten nam hoc nam 2">
+        </Button>
+
+    </LinearLayout>
+
+</RelativeLayout>
